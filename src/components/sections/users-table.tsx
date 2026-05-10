@@ -28,6 +28,7 @@ interface UserRow {
   created_at: string;
   id_photo_url?: string | null;
   driver_license_url?: string | null;
+  admin_open_profile_url?: string | null;
 }
 
 function EditUserModal({ user, open, onClose }: { user: UserRow; open: boolean; onClose: () => void }) {

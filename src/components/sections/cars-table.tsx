@@ -64,6 +64,7 @@ interface CarRow {
   return_delivery_currency?: "GEL" | "USD" | null;
   cover_photo_url?: string | null;
   photo_urls?: string[] | null;
+  admin_open_listing_url?: string | null;
 }
 
 function ReviewCarModal({
